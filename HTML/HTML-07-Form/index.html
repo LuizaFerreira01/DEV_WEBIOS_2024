@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <!--Formularios-->
+    <h2>Pacostes de viagem</h2>
+    <form action="">
+       <fieldset>
+        <legend>Informações sobre o usuario</legend>
+        <label>NOME:</label> <br>
+        <input type="text"> <br><br>
+        <label>IDADE:</label> <br>
+        <input type="number"> <br><br>
+        <label>EMAIL:</label> <br>
+        <input type="text"> <br><br>
+        <label>TELEFONE:</label> <br>
+        <input type="number"> <br><br>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Formato de voô</legend>
+        <input type="radio" name="Ida">
+        <label>Somente ida</label> <br>
+        <input type="radio" name="Ida">
+        <label>Ida e volta</label> <br>
+    </fieldset>
+
+   <br>
+
+
+      <fieldset>
+        <legend>Serviços que deseja contratar</legend>
+        <input type="checkbox">
+        <label>Reserva de veículo</label><br>
+        <input type="checkbox">
+        <label>Reserva de hospedagem</label><br>
+        <input type="checkbox">
+        <label>Compras de passagem</label>
+      </fieldset>
+        
+       <br><br>
+
+        <fieldset>
+            <legend>Quantidade de crianças</legend>
+        1
+        <input type="range">
+        10
+     </fieldset>
+
+       <br><br><br>
+
+       <fieldset>
+        <legend>Aeroporto para viagem</legend>
+       <select>
+        <option value=""></option>
+        <option value="GRU-Guarulhos">GRU-Guarulhos</option>
+        <option value="Congonhas">Congonhas</option>
+        <option value="Santos Dumont">Santos Dumont</option>
+        <option value="Aeroporti Internacional de Viracopos">Aeroporti Internacional de Viracopos</option>
+        <option value="">Aeroporto Campo de Marte</option>
+       </select>
+    </fieldset>
+
+      <br><br>
+      
+    <fieldset>
+        <legend>Local do aeroporto</legend>
+       <input type="text" list="Cidade">
+       <datalist id="Cidade">
+        <option value="São Paulo"></option>
+        <option value="Amapá"></option>
+        <option value="Tocantins"></option>
+        <option value="Sergipe"></option>
+        <option value="Rio de Janeiro"></option>
+        <option value="Rio Grande do Sul"></option>
+        <option value="Rio Grande do Norte"></option>
+        <option value="Bahia"></option>
+        <option value="Paraíba"></option>
+        <option value="Roraima"></option>
+        <option value="Amazonas"></option>
+       </datalist>
+    </fieldset>
+
+       <br><br>
+
+       <label>Deixe suas observações</label>
+
+       <br>
+
+<textarea name="" id="" cols="100" rows="10"></textarea>
+
+    </form>
+</body>
+</html>
