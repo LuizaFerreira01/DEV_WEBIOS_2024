@@ -1,0 +1,11 @@
+#secao{
+    border: 2px solid goldenrod;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+
+    padding: 10px 50px 20px 50px;
+    /*top (topo) right (direita) bottom (base) Left (Esquerda)*/
+}
+
