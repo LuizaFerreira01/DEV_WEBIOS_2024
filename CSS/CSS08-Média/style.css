@@ -1,0 +1,35 @@
+img{
+    width: 700px;
+}
+@media (max-width:450px) {
+    body{
+        background-color: aqua;
+    }
+
+    img{
+        width: 200px;
+    }
+    
+
+    img:hover{
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px;
+    }
+}
+
+@media(min-width: 452px){
+    body{
+
+        background-color: red;
+    }
+}
+
+img{
+    width: 50px;
+    border: 2px greenyellow;
+}
+
+img:hover{
+    border-radius: 3px;
+}
