@@ -1,0 +1,25 @@
+
+body{
+    background-color: rgb(rgb(248, 4, 4), green, blue)
+    h1{
+        color: rgb (105, 252, 252);
+        text-shadow: 2px 2px 2px blue; 
+        font-family: "teko", Arial; 
+    }
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 2em;
+        text-shadow: 2px 2px 2px blue;
+    }
+    font-style: italic;
+    font-size: 50px;
+    }
+    img{
+        height: 600px;
+        width: 70%;
+        box-shadow: 10px 10px 10px 10px red;
+    }
+    img{
+        display: block;
+        margin:auto
+    }
