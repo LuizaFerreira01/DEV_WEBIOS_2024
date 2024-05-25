@@ -1,68 +1,66 @@
-// concatenar strings
-var string = "Os alunos estão"
-var string2 = "reprovados"
-var string3 = "ou aprovados?"
-var num1 = 2
-var num2 = 4
-var OlhaAi
+var TodosDeCracha = false
 
-// + >> soma ou concatenação
-console.log(string + string2 + string3);
-console.log("Os alunos estão" + "reprovados" + "ou aprovados?") 
-// templete string
-console.log(`${string + string2 + string3 + (num1 + num2) + OlhaAi }`)
- 
+if (TodosDeCracha == true){
+    console.log("Todos recebem nota 10 em JS")
+}else{
+    console.log("Todos recebem nova 0 em JS")
+}                                                                                                                                                                                                                
 console.clear()
 
- var texto1 = "IOS fez uma excursão na TOTVS com três cabritinhos(alunos)"
+var numero1 = 8
+var numero2 = 4
 
- console.log(texto1.charAt(2))
- console.log(texto1 [27])
+if(numero1 > numero2){
 
- console.clear()
-
- var texto2 = "IOS"
- var texto3 = "Está chovendo hamburguer"
-
- console.log(`na variavel texto2 tem ${texto2.length} caracteres`)
-
- console.log(`na variavel texto3 tem ${texto3.length} caracteres`)
-
- var nome = "joão"
- console.log(nome.length)
-
- console.clear()
-
-
- var texto4 = "aqui está em minúsculo"
- var texto5 = "AQUI ESTÁ EM MAIÚSCULO"
-
- // UP- CRESCER 
- //Low- DIVIDIR
-
-console.log ("minuscula: $(texto5.toL.owerCase")
-console.log ("texto4.toLowerCase")
-
-var nomeUsuarioFacebook = "PKNinadaZL"
-console.log(nomeUsuarioFACEBOOK.toUpperCase())
+    console.log("variavel numero1 é maior que a variavel numero2")
+}else{
+    console.log("variavel numero1 é menor que a variavel numero2")
+}
 
 console.clear()
 
-var str = "Mozilla"
-//MOZILLA
-//0123456
+var numero1 = 4
+var numero2 = 15
 
-console.log(str)
-console.log(str.substring(1, 3)) // 3 seria para parar e vpltar para casa
-console.log(str.substring(3))
-console.clear()
-
-var texto6 = "olha a pipoca"
-console.log(texto6)
-console.log(texto6.replace('pipoca', 'carreta furacão')) //substituir um texto pelo outro
+numero1 > numero2 ? console.log("numero1 é maior") : console.log("numero 1 é menor")
 
 console.clear()
 
-var texto7 = "   olha a carreta     "
-console.log(texto7)
-console.log(texto7.trim()) // "trim" retira espaços apenas no inicio e no fim
+let mes = "JANEIRO"
+
+if (mes == "JANEIRO"){
+    console.log("É verão")
+}else if(mes == "JUNHO"){
+console.log("É outono")
+}else if(mes == "OUTONO"){
+    console.log("É primavera")
+}else{
+    console.log("É inverno")
+}
+
+console.clear()
+
+let mes = "JANEIRO"
+
+switch(mes){
+    
+    case "JANEIRO" :
+
+    console.log("É verão")
+    break
+    
+    case "JUNHO" :
+
+    console.log("É outono")
+    break
+
+    case "OUTUBRO" :
+        console.log("É primavera")
+        break
+
+        default: //else
+
+        console.log("É inverno")
+        break
+
+}
