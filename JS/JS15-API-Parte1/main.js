@@ -4,12 +4,11 @@ function getImage(e) {
     let url_api = document.getElementById('url_api').innerText;
     // console.log(url_api);
     // Função fetch para buscar dados na API
-    fetch(url_api, {
-    method: 'GET',
+    fetch(url_api).then((response) => {
+  
+        return response.json();
     })
-    .then((response) => {
-    return response.json();
-    })
+
     .then((data) => {
     // console.log(data);
     document.getElementById('json_aqui').innerText =
@@ -23,3 +22,4 @@ function getImage(e) {
     });
     }
     
+    //fetch(url).then(receber o  json).then(tratar o json e mostrar as informações em tela para o usuario).catch(é para tratar erros retornados pela API)
